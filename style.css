@@ -1,0 +1,97 @@
+* {
+	padding: 0;
+	border: 0;
+	margin: auto;
+	font-family: Arial, sans-serif;
+	color: #c2c2c2;
+}
+
+main {
+	padding-bottom: 50px;
+	width: 95%;
+}
+
+body {
+	max-width: 1124px;
+	margin: 50px 100px;
+}
+
+h3 {
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 2.2;
+	text-indent: 5px;
+}
+
+.people, .popular, .recent {
+	display: flex;
+	flex-flow: row wrap;
+	width: 30%;
+}
+
+.container {
+	position: relative;
+	display: flex;
+	align-content: space-between;
+	flex-flow: row wrap;
+	font-weight: bold;
+	padding-top: 50px;
+}
+
+li {
+	border-radius: 6px;
+	margin: 3px;
+	display: flex;
+	align-items: center;
+	background-color: rgba(118,117,128,0.05);
+	font-size: 12px;
+}
+
+li:hover {
+	background-color: rgba(118,117,128,0.1);
+}
+
+img {
+	margin: 10px;
+}
+
+ul {
+	width: 100%;
+}
+
+a {
+	margin: 0;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ec5a62;
+}
+
+.people img {
+	border-radius: 50%;
+}
+
+.icon {
+	position: absolute;
+	right: 0;
+	top: -135px;
+}
+
+input[type="search"]::placeholder {
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+	font-size: 80px;
+	font-weight: bold;
+	color: #c2c2c2;
+	opacity: 3;
+	text-indent: 13px;
+}
+
+input {
+	font-size: 50px;
+	color: #ec5a62;
+	width: 100%;
+	height: 150px;
+}
+
